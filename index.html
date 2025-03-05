@@ -8,15 +8,27 @@
     <link rel="icon" href="assest/fav.png" type="image/png" />
   </head>
   <body>
-    <nav class="outer-col-1">Nav</nav>
+    <nav class="outer-col-1">
+        <div class="nav-logo">Sakshi's Website</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#cards">Gallery</a></li>
+            <li><a href="#flex-cards">Blog</a></li>
+            <li><a href="#media-container">Media</a></li>
+        </ul>
+    </nav>
     <div class="outer-col-2">
-      <header>Header</header>
+        <header>
+            <h1>Welcome to Sakshi's Website</h1>
+            <p>Discover amazing Me</p>
+        </header>
+
       <div class="inner-row">
         <div class="inner-col">
           <article>
             <h2>Photo Gallery</h2>
             <p>Added by Sakshi Sharma</p>
-            <section class="cards">
+            <section class="cards" id="cards">
               <img src="assest/23m.jpg" alt="Sample photo" />
               <img src="assest/24m.jpg" alt="Sample photo" />
               <img src="assest/22m.jpg" alt="Sample photo" />
@@ -24,14 +36,14 @@
               <img src="assest/29m.jpg" alt="Sample photo" />
               <img src="assest/30m.jpg" alt="Sample photo" />
             </section>
-            <section class="flex-cards">
+            <section class="flex-cards" id="flex-cards">
                 <h2 class="section-title">Featured Flex Cards</h2>
                 <div class="flex-container">
                     <article class="card">
                         <img src="assest/23m.jpg" alt="Sample photo">
                         <div class="text">
                             <h3>Card 1</h3>
-                            <p> Place</p>
+                            <p> Dream Place</p>
                             <button>Here's why</button>
                         </div>
                     </article>
@@ -49,7 +61,7 @@
                         <img src="assest/22l.jpg" alt="Sample photo">
                         <div class="text">
                             <h3>Card 3</h3>
-                            <p> Palace.</p>
+                            <p>Palace.</p>
                             <button>Read more</button>
                         </div>
                     </article>
@@ -67,7 +79,7 @@
                         <img src="assest/25m.jpg" alt="Sample photo">
                         <div class="text">
                             <h3>Card 5</h3>
-                            <p> Dream Vehicle</p>
+                            <p>Dream Vehicle</p>
                             <button>Here's why</button>
                         </div>
                     </article>
@@ -81,10 +93,46 @@
                         </div>
                     </article>
                 </div>
+            </section> 
+
+            <section class="media-container" id="media-container">
+                <h2 class="section-title">Featured Media Objects</h2>
+            
+                <div class="media">
+                    <img class="media-object" src="assest/8s.jpg" alt="Sample photo">
+                    <div class="media-body">
+                        <h3 class="media-heading">Best Developer</h3>
+                        <p>Sakshi Sharma is one of the best developers a company can get </p>
+                    </div>
+                </div>
+            
+                <div class="media">
+                    <img class="media-object" src="assest/15l.jpg" alt="Sample photo">
+                    <div class="media-body">
+                        <h3 class="media-heading">5X Microsoft Certified</h3>
+                        <p>Sakshi Sharma have passed AZ900, AI900, Dp900, SC900 and MS900 of Microsoft as well</p>
+                    </div>
+                </div>
+            
+                <div class="media">
+                    <img class="media-object" src="assest/24m.jpg" alt="Sample photo">
+                    <div class="media-body">
+                        <h3 class="media-heading">Down to earth and  Humble</h3>
+                        <p>Sakshi is down to earth :) </p>
+                    </div>
+                </div>
             </section>
             
+            
           </article>
-          <footer>Footer</footer>
+          <footer>
+            <ul class="footer-links">
+                <li><a href="https://www.linkedin.com/in/sakshi-sharma-a86374312/" target="_blank">Privacy Policy</a></li>
+                <li><a href="https://www.linkedin.com/in/sakshi-sharma-a86374312/" target="_blank">Terms of Service</a></li>
+                <li><a href="https://www.linkedin.com/in/sakshi-sharma-a86374312/" target="_blank">Contact</a></li>
+            </ul>
+            <p>&copy; 2025 Sakshi's Website. All Rights Reserved.</p>
+        </footer>
         </div>
         <!-- <aside>Aside</aside> -->
       </div>
